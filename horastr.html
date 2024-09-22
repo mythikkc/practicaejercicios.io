@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Horas Extras</title>
+    <link rel="stylesheet" href="hors.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Repertorio</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="p1.html">Intereses</a></li>
+            <li><a href="comisiones.html">comisiones practica</a></li>
+            <li><a href="tienda.html">tienda practica</a></li>
+            <li><a href="estudiantes.html">calificaciones</a></li>
+            <li><a href="edad.html">edad</a></li>
+            <li><a href="horastr.html">horas trabajadas</a></li>
+            <li><a href="caluti.html">calcular Utilidad</a></li>
+            <li><a href="formregis.html"> Registro</a></li>
+
+    
+        </ul>
+        
+    </nav>
+        
+    </nav>
+    <div class="content" id="calc">
+        <h1>Cálculo de Horas Extras</h1>
+        <div class="input-group">
+            <label for="horas">Horas Trabajadas:</label>
+            <input type="number" id="horas" placeholder="Ingrese horas trabajadas" required />
+        </div>
+
+        <div class="input-group">
+            <label for="pago">Pago por Hora Normal:</label>
+            <input type="number" id="pago" placeholder="Ingrese pago por hora" required />
+        </div>
+
+        <button onclick="calcularHorasExtras()">Calcular Pago</button>
+
+        <h2 id="res"></h2>
+    </div>
+
+    <script src="hr.js"></script>
+</body>
+</html>

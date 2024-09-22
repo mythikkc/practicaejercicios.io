@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Comisiones</title>
+    <link rel="stylesheet" href="com.css">
+</head>
+<nav class="navbar">
+    <div class="logo">Repertorio</div>
+    <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="p1.html">Intereses</a></li>
+        <li><a href="comisiones.html">comisiones practica</a></li>
+        <li><a href="tienda.html">tienda practica</a></li>
+        <li><a href="estudiantes.html">calificaciones</a></li>
+        <li><a href="edad.html">edad</a></li>
+        <li><a href="horastr.html">horas trabajadas</a></li>
+        <li><a href="caluti.html">calcular Utilidad</a></li>
+
+    </ul>
+    
+</nav>
+
+    <div class="content" id="calc">
+        <h1>Calculadora de Comisiones</h1>
+        <div class="input-group">
+            <label for="sb">Sueldo Base:</label>
+            <input type="number" id="sb" placeholder="Ingrese sueldo base" required />
+        </div>
+
+        <div class="input-group">
+            <label for="v1">Venta 1:</label>
+            <input type="number" id="v1" placeholder="Ingrese monto de la venta 1" required />
+        </div>
+
+        <div class="input-group">
+            <label for="v2">Venta 2:</label>
+            <input type="number" id="v2" placeholder="Ingrese monto de la venta 2" required />
+        </div>
+
+        <div class="input-group">
+            <label for="v3">Venta 3:</label>
+            <input type="number" id="v3" placeholder="Ingrese monto de la venta 3" required />
+        </div>
+
+        <button onclick="calcularComisiones()">Calcular Comisiones</button>
+
+        <h2 id="res"></h2>
+    </div>
+
+    <script src="comi.js"></script>
+</body>
+</html>
